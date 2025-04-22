@@ -18,11 +18,11 @@ public class FrogSimulation
 		int pos = 0;
 		int i = 0;
 		while(i < maxHops && pos >= 0 && pos < goalDistance) {
-		pos += hopDistance();
-		//println(pos);
+			pos += hopDistance();
+			//println(pos);
 		}
 		if(pos >= goalDistance) {
-		return true;  
+			return true;  
 		}
 		return false;
 
@@ -37,7 +37,7 @@ public class FrogSimulation
 			}
 		}
 		return succ/num;
-		}
+		
 
 	}
 	
