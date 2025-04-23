@@ -1,5 +1,6 @@
 public class FrogSimulation
 {
+	
 	private int goalDistance;
 	private int maxHops;
 	
